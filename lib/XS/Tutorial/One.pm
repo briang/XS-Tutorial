@@ -79,6 +79,10 @@ C<XS::Tutorial::One>:
   unsigned int
   rand()
 
+  void
+  srand(seed)
+    unsigned int seed
+
 This file should be saved as F<lib/XS/Tutorial/One.xs>. The top half of the file
 is pure C code. The line beginning C<MODULE = XS::Tutorial::One> indicates the
 start of the XS code. This section will be parsed and compiled into C code by
